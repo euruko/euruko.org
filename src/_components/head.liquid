@@ -5,6 +5,11 @@
 
 <meta name="description" content="{{ metadata.description }}" />
 
+<link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
+<link rel="icon" href="{{ '/images/icon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+<link rel="manifest" href="/manifest.webmanifest">
+
 <link rel="stylesheet" href="{% asset_path css %}" />
 <script src="{% asset_path js %}" defer></script>
 {% live_reload_dev_js %}
