@@ -10,6 +10,8 @@ It's up to the participants to pick the next city where the conference will be h
 
 The big exception to this is Helsinki from 2020–2022 due to disruption caused by the ongoing pandemic.
 
+---
+
 <table>
   <thead>
     <tr>
