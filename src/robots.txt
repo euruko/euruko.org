@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Remove this if blog posts are added
+User-agent: *
+Disallow: /posts/*
+Disallow: /posts

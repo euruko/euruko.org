@@ -1,4 +1,6 @@
 import "index.css"
+import "terminal.css"
+import "overrides.css"
 import "syntax-highlighting.css"
 
 // Import all JavaScript & CSS files from src/_components

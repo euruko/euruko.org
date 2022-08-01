@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #D55751;
+  --error-color: #D55751;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #222225;
+    --page-width: 60em;
+    --font-color: #e8e9ed;
+    --invert-font-color: #222225;
+    --secondary-color: #a3abba;
+    --tertiary-color: #a3abba;
+    --primary-color: #D55751;
+    --error-color: #D55751;
+    --progress-bar-background: #3f3f44;
+    --progress-bar-fill: #D55751;
+    --code-bg-color: #3f3f44;
+    --display-h1-decoration: none;
+  }
+}
+
+.terminal-prompt::after {
+  display: none;
+  animation: none;
+}
+
+footer {
+  flex: 0;
+  padding: 1em 0;
+}

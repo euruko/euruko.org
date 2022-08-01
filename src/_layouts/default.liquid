@@ -4,12 +4,14 @@
     {% render "head", metadata: site.metadata, title: resource.data.title %}
   </head>
   <body class="{{ resource.data.layout }} {{ resource.data.page_class }}">
-    {% render "navbar", metadata: site.metadata, resource: resource %}
+    <div class="container">
+      {% render "navbar", metadata: site.metadata, resource: resource %}
 
-    <main>
-      {{ content }}
-    </main>
+      <main class="">
+        {{ content }}
+      </main>
 
-    {% render "footer", metadata: site.metadata %}
+      {% render "footer", metadata: site.metadata %}
+    </div>
   </body>
 </html>
