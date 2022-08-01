@@ -45,7 +45,7 @@ jobs:
 
       - name: Build 🔧
         run: |
-          ./bin/bridgetown build
+          ./bin/bridgetown deploy
 
       - name: Setup Pages 📑
         uses: actions/configure-pages@v1
