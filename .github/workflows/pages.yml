@@ -36,6 +36,13 @@ jobs:
         with:
           bundler-cache: true
 
+      - name: Setup Node 🧙‍♂️
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'yarn'
+      - run: yarn install --frozen-lockfile
+
       - name: Build 🔧
         run: |
           ./bin/bridgetown build
