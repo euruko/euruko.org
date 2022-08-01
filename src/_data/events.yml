@@ -1,0 +1,101 @@
+---
+- start_date: 2003-06-21
+  end_date: 2003-06-22
+  location: Karlsruhe, Germany
+  notes: https://web.archive.org/web/20030419052735/http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/65418
+  url: https://web.archive.org/web/20030401130152/http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&p=EuropeanRubyConference
+- start_date: 2004-10-09
+  end_date: 2004-10-10
+  location: Munich, Germany
+  notes: ""
+  url: https://web.archive.org/web/20041010230509/http://www.ntecs.de/wiki/euruko2004/show/HomePage
+- start_date: 2005-10-15
+  end_date: 2005-10-16
+  location: Berlin, Germany
+  notes: ""
+  url: https://web.archive.org/web/20051122173527/http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&p=Euruko05
+- start_date: 2006-11-04
+  end_date: 2006-11-05
+  location: Munich, Germany
+  notes: ""
+  url: https://web.archive.org/web/20070220004959/http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&p=Euruko06
+- start_date: 2007-11-10
+  end_date: 2007-11-11
+  location: Vienna, Austria
+  notes: ""
+  url: https://web.archive.org/web/20080125150440/http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&p=Euruko07
+- start_date: 2008-03-29
+  end_date: 2008-03-30
+  location: Prague, Czech Republic
+  notes: ""
+  url: https://web.archive.org/web/20080924093954/http://euruko2008.org/
+- start_date: 2009-05-09
+  end_date: 2009-05-10
+  location: Barcelona, Spain
+  notes: ""
+  url: https://web.archive.org/web/20091002170950/https://www.euruko2009.org/
+- start_date: 2010-05-29
+  end_date: 2010-05-30
+  location: Krakow, Poland
+  notes: ""
+  url: https://web.archive.org/web/20110717180635/http://euruko2010.org/
+- start_date: 2011-05-28
+  end_date: 2011-05-29
+  location: Berlin, Germany
+  notes: ""
+  url: http://euruko2011.org/
+- start_date: 2012-06-01
+  end_date: 2012-06-02
+  location: Amsterdam, Netherlands
+  notes: ""
+  url: https://web.archive.org/web/20121105042215/http://www.euruko2012.org/
+- start_date: 2013-06-28
+  end_date: 2013-06-29
+  location: Athens, Greece
+  notes: ""
+  url: https://web.archive.org/web/20130819042139/http://euruko2013.org/
+- start_date: 2014-06-20
+  end_date: 2014-06-21
+  location: Kyiv, Ukraine
+  notes: Cancelled
+  url: http://www.euruko2014.org/
+- start_date: 2015-10-17
+  end_date: 2015-10-18
+  location: Salzburg, Austria
+  notes: ""
+  url: http://www.euruko2015.org/
+- start_date: 2016-09-23
+  end_date: 2016-09-24
+  location: Sofia, Bulgaria
+  notes: ""
+  url: https://euruko2016.org/
+- start_date: 2017-09-29
+  end_date: 2017-09-30
+  location: Budapest, Hungary
+  notes: ""
+  url: https://euruko2017.org/
+- start_date: 2018-08-24
+  end_date: 2018-08-25
+  location: Vienna, Austria
+  notes: ""
+  url: https://euruko2018.org/
+- start_date: 2019-06-21
+  end_date: 2019-06-22
+  location: Rotterdam, Netherlands
+  notes: ""
+  url: https://euruko2019.org/
+- start_date: 2020-08-21
+  end_date: 2020-08-22
+  location: Helsinki, Finland
+  notes: "Postponed"
+  url: https://euruko2020.org/
+- start_date: 2021-05-28
+  end_date: 2021-05-29
+  location: Helsinki, Finland
+  notes: "Online only"
+  url: https://euruko2021.org/
+- start_date: 2022-10-13
+  end_date: 2022-10-14
+  location: Helsinki, Finland
+  notes: ""
+  url: https://2022.euruko.org
