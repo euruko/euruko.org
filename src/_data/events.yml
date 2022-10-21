@@ -73,17 +73,17 @@
   end_date: 2017-09-30
   location: Budapest, Hungary
   notes:
-  url: https://euruko2017.org/
+  url: https://2017.euruko.org/
 - start_date: 2018-08-24
   end_date: 2018-08-25
   location: Vienna, Austria
   notes:
-  url: https://euruko2018.org/
+  url: https://2018.euruko.org/
 - start_date: 2019-06-21
   end_date: 2019-06-22
   location: Rotterdam, Netherlands
   notes:
-  url: https://euruko2019.org/
+  url: https://2019.euruko.org/
 - start_date: 2020-08-21
   end_date: 2020-08-22
   location: Helsinki, Finland
