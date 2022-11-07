@@ -36,7 +36,11 @@ The big exception to this is Helsinki from 2020–2022 due to disruption caused 
           {% endif %}
         </td>
         <td>
-          {% if event.start_date == event.end_date %}
+          {% # If the start day is the first of January, assume that the date hasn't been set yet -%}
+          {% assign start_month_day = event.start_date | date: '%m-%d' %}
+          {% if start_month_day == '01-01' %}
+            TBD
+          {% elsif event.start_date == event.end_date %}
             {{ event.start_date | date: '%-d %B %Y' }}
           {% else %}
             {% assign start_month = event.start_date | date: '%m' %}
