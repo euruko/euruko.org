@@ -11,8 +11,6 @@ Every year the Ruby community from Europe and beyond come to Euruko to meet and 
 
 It's up to the participants to pick the next city where the conference will be held. Attendees will pitch their own cities to be the hosts of the next year's conference which are then voted on by the audience. This also means that the conference organisers will change every year.
 
-The big exception to this is Helsinki from 2020–2022 due to disruption caused by the ongoing pandemic.
-
 **Latest event:** [Euruko {{ latest.start_date | date: '%Y' }}]({{ latest.url }})
 
 ---
