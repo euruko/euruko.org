@@ -4,8 +4,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
 
-title: Euruko
+title: EuRuKo
 tagline: Europe's biggest Ruby conference
 email: organisers@euruko.org
 description: >-
-  Euruko is a Ruby conference organised annually, each year in a different European city chosen by the participants.
+  EuRuKo is a Ruby conference organised annually, each year in a different European city chosen by the participants.
