@@ -51,13 +51,13 @@ jobs:
           ./bin/bridgetown deploy
 
       - name: Setup Pages 📑
-        uses: actions/configure-pages@v1
+        uses: actions/configure-pages@v3
 
       - name: Upload artifact ☁️
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: './output'
 
       - name: Deploy to GitHub Pages 🚀
         id: deployment
-        uses: actions/deploy-pages@main
+        uses: actions/deploy-pages@v2
