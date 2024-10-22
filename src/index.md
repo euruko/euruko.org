@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign events_by_date = site.data.events | sort: "start_date" | reverse %}
-{% assign latest = events_by_date | first %}
+{% assign latest = events_by_date | where_exp: "event", "event.url" | first %}
 
 EuRuKo is a Ruby conference organised annually, each year in a different European city chosen by the participants.
 
