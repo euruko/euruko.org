@@ -27,7 +27,11 @@ It's up to the participants to pick the next city where the conference will be h
     {% for event in events_by_date %}
       <tr>
         <td>
-          <a href="{{ event.url }}">{{ event.start_date | date: '%Y' }}</a>
+          {% if event.url %}
+            <a href="{{ event.url }}">{{ event.start_date | date: '%Y' }}</a>
+          {% else %}
+            {{ event.start_date | date: '%Y' }}
+          {% endif %}
         </td>
         <td>
           {{ event.location }}
