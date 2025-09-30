@@ -5,13 +5,13 @@ layout: default
 {% assign events_by_date = site.data.events | sort: "start_date" | reverse %}
 {% assign latest = events_by_date | where_exp: "event", "event.url" | first %}
 
-EuRuKo is a Ruby conference organised annually, each year in a different European city chosen by the participants.
+Euruko is a Ruby conference organised annually, each year in a different European city chosen by the participants.
 
-Every year the Ruby community from Europe and beyond come to EuRuKo to meet and share their love of Ruby. This is is the longest running and biggest Ruby conference anywhere in Europe and one of the biggest in the world.
+Every year the Ruby community from Europe and beyond come to Euruko to meet and share their love of Ruby. This is is the longest running and biggest Ruby conference anywhere in Europe and one of the biggest in the world.
 
 It's up to the participants to pick the next city where the conference will be held. Attendees will pitch their own cities to be the hosts of the next year's conference which are then voted on by the audience. This also means that the conference organisers will change every year.
 
-**Latest event:** [EuRuKo {{ latest.start_date | date: '%Y' }}]({{ latest.url }})
+**Latest event:** [Euruko {{ latest.start_date | date: '%Y' }}]({{ latest.url }})
 
 ---
 
